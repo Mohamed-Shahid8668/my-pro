@@ -13,7 +13,7 @@ const app = express();
 
 // Constants
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/attendanceDB";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://sahidrealme30:Shahid8668@cluster0.pv6rd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Middleware
 app.use(cors());
