@@ -1,0 +1,60 @@
+/* ---------------- AUTH PAGE (Amazon Style) ---------------- */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background-color: #EAEDED;
+  }
+  
+  .auth-box {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .auth-box h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #232f3e;
+  }
+  
+  .auth-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-box input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .btn-auth {
+    background-color: #FFD814;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .btn-auth:hover {
+    background-color: #F7CA00;
+  }
+  
+  .toggle-auth {
+    color: #007185;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .toggle-auth:hover {
+    text-decoration: underline;
+  }
+  

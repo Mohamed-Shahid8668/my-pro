@@ -1,0 +1,257 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Background */
+body {
+  background-color: #f3f3f3;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Amazon-Style Navbar */
+.navbar {
+  background-color: #131921;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Amazon-Style Button */
+.btn {
+  background-color: #ff9900;
+  color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffa41c;
+}
+
+/* Amazon-Style Card */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Form Fields */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- AUTH PAGE STYLES ---------------- */
+.auth-container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #232f3e;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auth-container .btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.toggle-auth {
+  color: #007185;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.toggle-auth:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- DASHBOARD STYLES ---------------- */
+.dashboard-container {
+  background-color: #EAEDED;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.dashboard-header {
+  background-color: #232F3E;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dashboard-header .nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.dashboard-header .nav-links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.dashboard-card {
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.dashboard-card h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.dashboard-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.dashboard-btn {
+  background-color: #FFD814;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.dashboard-btn:hover {
+  background-color: #F7CA00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-links {
+    margin-top: 10px;
+  }
+
+  .navbar-links a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .auth-container {
+    width: 90%;
+  }
+
+  .dashboard-card {
+    width: 95%;
+  }
+}
