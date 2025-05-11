@@ -5,7 +5,7 @@ import * as XLSX from 'xlsx';
 import 'jspdf-autotable';
 import "./Attendance.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://my-pro-tfct.onrender.com/api";
 
 export default function AttendanceDashboard() {
   const [students, setStudents] = useState([]);
