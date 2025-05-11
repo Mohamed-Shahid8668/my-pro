@@ -47,7 +47,7 @@ mongoose
   .then(() => {
     console.log("✅ Database connected");
     app.listen(PORT, () => {
-      console.log(`✅ Server running at http://https://my-pro-tfct.onrender.com/`);
+      console.log(`✅ Server running at https://my-pro-tfct.onrender.com/`);
     });
   })
   .catch((err) => {
