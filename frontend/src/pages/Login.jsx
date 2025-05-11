@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://https://my-pro-tfct.onrender.com//api/auth/login", {
+      const response = await fetch("https://my-pro-tfct.onrender.com//api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
