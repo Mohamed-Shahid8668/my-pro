@@ -5,7 +5,7 @@ import StudentForm from "../components/StudentForm";
 import "./Dashboard.css";
 
 // API base URL
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://my-pro-tfct.onrender.com/";
 
 export default function Dashboard({ setIsAuthenticated }) {
   const [students, setStudents] = useState([]);
