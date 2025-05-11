@@ -15,7 +15,7 @@ const Signup = () => {
   // ✅ Request OTP function
   const requestOtp = async () => {
     try {
-      const res = await fetch("http://https://my-pro-tfct.onrender.com//api/auth/request-otp", {
+      const res = await fetch("https://my-pro-tfct.onrender.com//api/auth/request-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: formData.email }),
